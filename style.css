@@ -1,0 +1,56 @@
+html, body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background: #000;
+}
+
+h1 {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: white;
+  font-size: 2rem;
+  z-index: 2;
+}
+
+#count {
+  position: absolute;
+  top: 65px;
+  left: 20px;
+  color: #00ffcc;
+  font-size: 1.2rem;
+  z-index: 2;
+}
+
+.instructions {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background: rgba(0,0,0,0.45);
+  padding: 12px 18px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+canvas {
+  display: block;
+}
+#addBallBtn {
+  position: absolute;
+  top: 105px;
+  left: 20px;
+  background: #00ffcc;
+  color: #000;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#addBallBtn:hover {
+  background: #00cfa6;
+}
